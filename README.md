@@ -107,6 +107,12 @@ Playwright automatically generates an HTML report after test runs. To view it, u
 npx playwright show-report
 ```
 
+### Run on a Specific Browser (e.g., Chrome)
+To run a specific test case only on the Chromium/Chrome browser:
+```bash
+npx playwright test e2e/tests/quick-invoice-intervention.spec.ts --project=chromium
+```
+
 ## ☕ Support
 
 If you find this project helpful, you can support my work by buying me a coffee:

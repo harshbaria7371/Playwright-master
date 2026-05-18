@@ -113,6 +113,20 @@ To run a specific test case only on the Chromium/Chrome browser:
 npx playwright test e2e/tests/quick-invoice-intervention.spec.ts --project=chromium
 ```
 
+### Run on a Specific Browser with Headed mode (e.g., Chrome)
+To run a specific test case only on the Chromium/Chrome browser with headed mode:
+```bash
+npx playwright test e2e/tests/quick-invoice-intervention.spec.ts --project=chromium --headed
+```
+
+### Run experimental test cases
+To run a specific test case only on the Chromium/Chrome browser with headed mode:
+```bash
+npx playwright test e2e/tests/experimental/zerostep_sample.spec.ts --project=chromium --headed
+npx playwright test e2e/tests/experimental/self_healing_locators_sample.spec.ts --project=chromium --headed
+npx playwright test e2e/tests/experimental/multimodal_visual_audit_sample.spec.ts --project=chromium --headed
+```
+
 ## ☕ Support
 
 If you find this project helpful, you can support my work by buying me a coffee:

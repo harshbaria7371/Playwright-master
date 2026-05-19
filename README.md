@@ -127,6 +127,12 @@ npx playwright test e2e/tests/experimental/self_healing_locators_sample.spec.ts 
 npx playwright test e2e/tests/experimental/multimodal_visual_audit_sample.spec.ts --project=chromium --headed
 ```
 
+## Demos and Documentation
+
+We maintain specific demonstration documents and example test cases to showcase framework features:
+
+- **[Visual Regression Demo](./docs/demos/Visual_Regression_Demo.md)**: An explanation of our visual regression testing approach, demonstrating how mismatched pixels automatically fail tests (includes PDF examples).
+
 ## ☕ Support
 
 If you find this project helpful, you can support my work by buying me a coffee:
